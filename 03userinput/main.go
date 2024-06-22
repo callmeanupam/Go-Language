@@ -23,6 +23,10 @@ func main(){
 	fmt.Println("Thanks for rating ", input)
 	fmt.Printf("Thanks for rating %T \n", input)
 
+	// when the majority of focus in on error
+	// _, err := reader.ReadString('\n')
+	// fmt.Println("Thanks for rating ", err)
+
 	
 
 }
